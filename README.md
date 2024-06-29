@@ -11,7 +11,7 @@ TextToSQL is a powerful tool designed to convert natural human language into SQL
 - **Query Execution**: Executes the generated SQL query against the connected database.
 - **User Interaction**: Allows users to choose whether to execute the query, get an explanation, or abort the operation.
 - **Dynamic few-shot prompting**: Dynamically chooses examples that best matches with the user question by using similarity search. Uses these examples to generate a few-shot prompt.
-- **Examples Generation**: Creates a set of natural language questions and their corresponding SQL queries for a specified database, used for dynamic few-shot prompting in SQL query generation.
+- **Data augmentation**: Creates a set of natural language questions and their corresponding SQL queries for a specified database, used as examples for dynamic few-shot prompting in SQL query generation.
 
 ## How It Works
 
